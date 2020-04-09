@@ -803,11 +803,11 @@ INTERFACE /dirty/common_constants.
     persisted    TYPE i       VALUE 2.
 ENDINTERFACE.
 ```
+Interface define a type and could be implemented by a class, this is not meaningful.
 
 > [Enumerations](sub-sections/Enumerations.md)
 > describes common enumeration patterns
 > and discusses their advantages and disadvantages.
->
 > Read more in _Chapter 17: Smells and Heuristics: J3: Constants versus Enums_ of [Robert C. Martin's _Clean Code_].
 
 ### If you don't use enumeration classes, group your constants
